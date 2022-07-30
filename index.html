@@ -42,7 +42,9 @@
         cat id_rsa.pub      To get the key
 
         git init
-        
+        git remote add origin https://github.com/Anramirezv/Notas.git
+        git push -u origin master
+
 
 
 
@@ -88,6 +90,150 @@
 
 	
 
+
+
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+    <p>
+        Hola.
+        para actualizar = sudo apt-get update y despues sudo apt-get upgrade
+        Para instalar algo = sudo apt install "nodejs"
+        instalar = sudo apt install npm
+
+
+    </p>
+    <p>
+        React.Js
+        npx create-react-app test en la carpeta y desde ahi npm start para abrirlo en el navegador
+        y despues con code abrimos y editamos el .js
+        en caso de decir "chown invalid" sudo chown -R felipe ~/(hasta la carpeta instalado)
+        
+
+        rm -rf "carpeta" para borrar la carpeta
+    
+    
+    
+    
+    
+    </p>
+    
+    
+
+    <p>
+        touch permite crear un archivo, es similar al mkdir 
+        rm es comando para borrar
+    </p>
+
+    
+
+    <p>
+        instalar git en el pC
+        sudo apt install git
+
+        Luego crear llave de seguridad: 
+        ssh-keygen -t rsa -b 4096 -C "correo electronico"
+        ssh-copy-id "correo electronico". en este paso nos indica donde esta la llave
+        ingresamos a la carpeta con ~/.shh y luego 
+        cat id_rsa.pub
+        
+        luego debemos vincular con github la ssh
+
+
+        git remote add origin git@github.com:Anramirezv/Notas.git
+        …or push an existing repository from the command line
+        git remote add origin git@github.com:Anramirezv/Notas.git
+        git branch -M main
+        git push -u origin main
+
+    </p>
+    <p>
+
+        Hola, este es una prueba de HTML y GITHUB para trabajar
+        git init   (se hace en la carpeta para iniciar git)
+
+        esta es una prueba v2
+        /br 
+        git add . (todo)
+        git status
+        git commit
+        git rm --cached (borrar version anterior)
+        git show (muestra cambios)
+        git diff comparar cambios
+        git checkout (trae versiones del repositorio)
+
+        se le llama Merge a unir dos ramas
+        git pull actualiza del repositorio en liena
+        git push sube todo a la nube
+
+        git reset --hard (vulve a la version anterior) se borran los add y se considera agresivo
+        git checkout "codigo" y nombre archivo. (visualizar una version)
+    </p>
+    <p>
+        Iniciar por primera vez git en una carpeta
+        git init
+        configurar user y pass
+        git config --global user.name "Felipe"
+        git config --global user.email "andresfelram02@gmail.com"
+
+    </p>
+    <p>
+        git add .
+        git commit -m ""
+        Crear otra rama
+        git branch ""
+        para hacer un merge:
+        git merge "a la que queremos traer". debemos estar en la que queremos dejar la rama
+    </p>
+
+
+    <p>
+        alias "(aqui en comando a hacer alias)" 
+        git tag -a v0.1 -m "Comentarios" ((((pegar el codigo de checkout)))
+        gitk
+         
+        git log --all --graph --decorate --oneline ver grafica de las versiones
+
+
+    </p>
+
+    <p>
+        debemos traer de un repostorio ya creado para participar 
+        git clone "https""ssh"
+        debe tener acceso desde github para que pueda actualizar el repositorio
+        agregamos el gmail publico
+        git remote add "" URL 
+        asi tenemos 2 fuentes de datos para trabajar
+        
+
+    </p>
+    <p>
+        podemos usar .gitignore para que git no suba los archivos al repostorio ya que hay cosas que se deben mantener privadas
+        rebase es usado para pegar ramas, SOLO DEBE HACERSE LOCAL Y SE HACE DESDE LA RAMA X A MASTER. rebase primero a la que cambia y luego rebase a la rama final
+
+        gitk intefas grafica de los merges
+
+        git stash. ver cambios en memoria sin necesidad de hacerles el commit 
+        git stash para guardar los archivos actuales en memoria y luego 
+        git stash pop para cargar los archivos que guardamos
+        si guardamos el archivo podemos usar git stash y luego git stash drop ya que asi volveremos a la anterior version y el drop borra el ultimo cambio que se hizo
+        git stash drop
+
+    </p>
+
+
+
+    <p>
+        vamos a visualizar las ramas en la terminal
 
 
 
